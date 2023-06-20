@@ -2,6 +2,7 @@ import React from 'react'
 import './Bankdetails.css'
 import Sidebar from './Sidebar';
 import FaceIcon from '@mui/icons-material/Face';
+import { NavLink } from 'react-router-dom';
 // import { useNavigate } from 'react-router-dom';
 
 const Bankdetails = () => {
@@ -29,6 +30,16 @@ const Bankdetails = () => {
                                 <FaceIcon />
                             </div>
                         </div>
+
+                         {/* Navbar code */}
+                         <ul className="hero-section">
+                            <li><NavLink className="active" to="/">Home</NavLink></li>
+                            <li><NavLink className="active" to="/taxdetails">Tax Details</NavLink></li>
+                            <li><NavLink className="active" to="/bankdetails">Bank Details</NavLink></li>
+                            <li><NavLink className="active" to="#">Branch Address</NavLink></li>
+                            <li><NavLink className="active" to="#">Attachments</NavLink></li>
+                            <li><NavLink className="active" to="#">Other Details</NavLink></li>
+                        </ul>
                         <div className='head-closed'>
                             <div className='closed-class'>
                                 <div class="form-container">

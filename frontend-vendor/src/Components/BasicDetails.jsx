@@ -3,6 +3,7 @@ import './BasicDetails.css'
 import Sidebar from './Sidebar';
 import FaceIcon from '@mui/icons-material/Face';
 import { useNavigate } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const BasicDetails = () => {
     const navigate = useNavigate();
@@ -30,6 +31,15 @@ const BasicDetails = () => {
                                 <FaceIcon />
                             </div>
                         </div>
+                         {/* Navbar code */}
+                         <ul className="hero-section">
+                            <li><NavLink className="active" to="/">Home</NavLink></li>
+                            <li><NavLink className="active" to="/taxdetails">Tax Details</NavLink></li>
+                            <li><NavLink className="active" to="/bankdetails">Bank Details</NavLink></li>
+                            <li><NavLink className="active" to="#">Branch Address</NavLink></li>
+                            <li><NavLink className="active" to="#">Attachments</NavLink></li>
+                            <li><NavLink className="active" to="#">Other Details</NavLink></li>
+                        </ul>
 
                         <div className='head-closed '>
                             <div className='closed-class'>
