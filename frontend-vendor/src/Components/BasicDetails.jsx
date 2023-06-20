@@ -5,14 +5,15 @@ import FaceIcon from '@mui/icons-material/Face';
 import { useNavigate } from 'react-router-dom';
 
 const BasicDetails = () => {
+    const navigate = useNavigate();
     const formsubmit = (e) => {
-        // const navigate = useNavigate();
+        
         e.preventDefault();
         console.log("function is working")
         let formData = new FormData(e.target);
         formData = Object.fromEntries(formData);
         console.log(formData)
-        // navigate('/Bankdetails');
+        
     };
     return (
         <div className='Appone'>
@@ -21,6 +22,7 @@ const BasicDetails = () => {
                 <div className="container">
                     <form onSubmit={(event) => {
                         formsubmit(event);
+                        navigate('/Bankdetails');
                     }}>
                         <div className="white-bar">
                             <span class="name">Ankush Thakur</span>

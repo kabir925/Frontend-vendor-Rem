@@ -29,15 +29,15 @@ const Taxdetails = () => {
                                 <FaceIcon />
                             </div>
                         </div>
-                        
+
                         {/* Navbar code */}
-                        <ul className='order-list'>
-                            <li class="nav-link"><NavLink  to="/">Home</NavLink></li>
-                            <li class="nav-link"><NavLink  to="/taxdetails">Tax Details</NavLink></li>
-                            <li class="nav-link"><NavLink  to="/bankdetails">Bank Details</NavLink></li>
-                            <li class="nav-link"><NavLink  to="#">Branch Address</NavLink></li>
-                            <li class="nav-link"><NavLink  to="#">Attachments</NavLink></li>
-                            <li class="nav-link"><NavLink  to="#">Other Details</NavLink></li>
+                        <ul className="hero-section">
+                            <li><NavLink className="active" to="/">Home</NavLink></li>
+                            <li><NavLink className="active" to="/taxdetails">Tax Details</NavLink></li>
+                            <li><NavLink className="active" to="/bankdetails">Bank Details</NavLink></li>
+                            <li><NavLink className="active" to="#">Branch Address</NavLink></li>
+                            <li><NavLink className="active" to="#">Attachments</NavLink></li>
+                            <li><NavLink className="active" to="#">Other Details</NavLink></li>
                         </ul>
                         <div className='head-closed '>
                             <div className='closed-class'>
