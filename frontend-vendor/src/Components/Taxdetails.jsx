@@ -3,17 +3,18 @@ import './Taxdetails.css'
 import Sidebar from './Sidebar';
 import { NavLink } from 'react-router-dom';
 import FaceIcon from '@mui/icons-material/Face';
-
+import { useNavigate } from 'react-router-dom';
 
 const Taxdetails = () => {
+    const navigate = useNavigate();
     const formsubmit = (e) => {
-        const navigate = useNavigate();
+        
         e.preventDefault();
         console.log("function is working")
         let formData = new FormData(e.target);
         formData = Object.fromEntries(formData);
         console.log(formData)
-        // navigate('/Bank')
+        
     };
     return (
         <div className='appone'>

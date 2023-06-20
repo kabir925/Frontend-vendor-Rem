@@ -2,7 +2,7 @@ import React from 'react'
 import './Bankdetails.css'
 import Sidebar from './Sidebar';
 import FaceIcon from '@mui/icons-material/Face';
-import { useNavigate } from 'react-router-dom';
+// import { useNavigate } from 'react-router-dom';
 
 const Bankdetails = () => {
     // const navigate=useNavigate();
