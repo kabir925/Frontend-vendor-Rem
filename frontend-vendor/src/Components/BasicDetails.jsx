@@ -22,7 +22,7 @@ const BasicDetails = () => {
                 <div className="container">
                     <form onSubmit={(event) => {
                         formsubmit(event);
-                        navigate('/Bankdetails');
+                        navigate('/Taxdetails');
                     }}>
                         <div className="white-bar">
                             <span class="name">Ankush Thakur</span>

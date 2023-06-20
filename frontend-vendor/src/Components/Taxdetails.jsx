@@ -7,7 +7,7 @@ import FaceIcon from '@mui/icons-material/Face';
 
 const Taxdetails = () => {
     const formsubmit = (e) => {
-        // const navigate = useNavigate();
+        const navigate = useNavigate();
         e.preventDefault();
         console.log("function is working")
         let formData = new FormData(e.target);
@@ -22,6 +22,7 @@ const Taxdetails = () => {
                 <div className="container">
                     <form onSubmit={(event) => {
                         formsubmit(event);
+                        navigate('/Bank')
                     }}>
                         <div className="white-bar">
                             <span class="name">Ankush Thakur</span>

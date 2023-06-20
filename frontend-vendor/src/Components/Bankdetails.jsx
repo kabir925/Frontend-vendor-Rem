@@ -5,7 +5,7 @@ import FaceIcon from '@mui/icons-material/Face';
 import { useNavigate } from 'react-router-dom';
 
 const Bankdetails = () => {
-    const navigate=useNavigate();
+    // const navigate=useNavigate();
     const formsubmit = (e) => {
         e.preventDefault();
         console.log("function is working")
@@ -21,7 +21,7 @@ const Bankdetails = () => {
                 <div className="container">
                     <form onSubmit={(event) => {
                         formsubmit(event);
-                        navigate('/Taxdetails');
+                        // navigate('/Taxdetails');
                     }}>
                         <div className="white-bar">
                             <span class="name">Ankush Thakur</span>
