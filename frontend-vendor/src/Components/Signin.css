@@ -1,9 +1,4 @@
-/* .hero-section-1 {
-    display: flex;
-    width: auto;
-    height: 50px;
-    background-color: navajowhite;
-} */
+
 
 .md-1 {
     display: flex;
@@ -13,10 +8,6 @@
 
 }
 
-/* .md-2{
-    display: flex;
-    justify-content: center;
-} */
 
 .md-hero {
     display: flex;
@@ -45,7 +36,7 @@
     margin-top: 3px;
 }
 
-.signup-button {
+.signin-button {
     padding: 10px;
     width: 139.55px;
     height: 40.62px;

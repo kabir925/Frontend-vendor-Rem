@@ -34,7 +34,7 @@ const Taxdetails = () => {
 
                         {/* Navbar code */}
                         <ul className="hero-section">
-                            <li><NavLink className="active" to="/">Home</NavLink></li>
+                            <li><NavLink className="active" to="/basicdetails">Home</NavLink></li>
                             <li><NavLink className="active" to="/taxdetails">Tax Details</NavLink></li>
                             <li><NavLink className="active" to="/bankdetails">Bank Details</NavLink></li>
                             <li><NavLink className="active" to="#">Branch Address</NavLink></li>
