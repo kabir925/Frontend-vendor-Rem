@@ -21,7 +21,7 @@ const Taxdetails = () => {
             <div className='Head-class'>
                 <Sidebar />
                 <div className="container">
-                    <form onSubmit={(event) => {
+                    <form onSubmit={(event) => {            
                         formsubmit(event);
                         navigate('/Bankdetails')
                     }}>

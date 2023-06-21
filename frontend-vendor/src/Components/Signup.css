@@ -1,0 +1,56 @@
+/* .hero-section-1 {
+    display: flex;
+    width: auto;
+    height: 50px;
+    background-color: navajowhite;
+} */
+
+.md-1 {
+    display: flex;
+    width: auto;
+    height: 50px;
+    background-color: navajowhite;
+
+}
+
+/* .md-2{
+    display: flex;
+    justify-content: center;
+} */
+
+.md-hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.md-3 {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-label {
+    font-weight: bold;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    padding: 5px;
+    width: 308px;
+    height: 44px;
+}
+
+.signup-button {
+    padding: 10px;
+    width: 139.55px;
+    height: 40.62px;
+    background-color: burlywood ;
+    border-radius: 25px;
+    color: white;
+    font-style: normal;
+    font-size: 15px;
+}
